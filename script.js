@@ -1,12 +1,13 @@
+const d = document.querySelectorAll("strong");
 function highlight() {
-    //Write your code here
 
-
+	d.forEach((element)=>{
+		element.style.color="green";
+	})
 }
 
-
 function return_normal() {
-    //Write your code here
-
-    
+	d.forEach((element)=>{
+		element.style.color="black";
+	})
 }
